@@ -46,7 +46,7 @@ class TestLoggedIn(Resource):
 
 class TestFoo(Resource):
     def get(self):
-        return "One more time....."
+        return "Doing a test"
 
 # Define Endpoints
 api.add_resource(RegisterUser, '/register')
